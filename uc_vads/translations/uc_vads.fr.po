@@ -1,0 +1,461 @@
+# $Id$
+#
+# French translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  uc_vads.module: n/a
+#  uc_vads.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubercart PayZen 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-19 15:57-0000\n"
+"PO-Revision-Date: 2011-10-19 16:00-0000\n"
+"Last-Translator: \n"
+"Language-Team: Lyra Network <support@payzen.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n>1);\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-Basepath: /srv/lyra-data/workspace.php/ubercart_7.x-3.0/src/uc_vads/\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: uc_vads.module.php:60
+msgctxt "uc_vads" 
+msgid "Integrates PayZen Payment gateway with Ubercart"
+msgstr "Intègre la méthode de paiement PayZen dans Ubercart"
+
+#: uc_vads.module.php:78
+msgctxt "uc_vads" 
+msgid "Pay by credit card with PayZen"
+msgstr "Payer par carte de crédit avec PayZen"
+
+#: uc_vads.module.php:82
+msgctxt "uc_vads" 
+msgid "PayZen"
+msgstr "PayZen"
+
+#: uc_vads.module.php:84
+msgctxt "uc_vads" 
+msgid "Process credit card payments using PayZen gateway."
+msgstr "Paiement par carte de crédit via la plateforme PayZen."
+
+#: uc_vads.module.php:111
+msgctxt "uc_vads" 
+msgid "Module information"
+msgstr "Informations sur le module"
+
+#: uc_vads.module.php:116
+msgctxt "uc_vads" 
+msgid "Developed by"
+msgstr "Développé par"
+
+#: uc_vads.module.php:121
+msgctxt "uc_vads" 
+msgid "Contact email"
+msgstr "Courriel de contact"
+
+#: uc_vads.module.php:126
+msgctxt "uc_vads" 
+msgid "Module version"
+msgstr "Version du module"
+
+#: uc_vads.module.php:131
+msgctxt "uc_vads" 
+msgid "Gateway version"
+msgstr "Version de la plateforme"
+
+#: uc_vads.module.php:136
+msgctxt "uc_vads" 
+msgid "Tested with"
+msgstr "Testé avec"
+
+#: uc_vads.module.php:143
+msgctxt "uc_vads" 
+msgid "Gateway access"
+msgstr "Accès à la plateforme"
+
+#: uc_vads.module.php:148
+msgctxt "uc_vads" 
+msgid "Site id"
+msgstr "Identifiant du site"
+
+#: uc_vads.module.php:149
+msgctxt "uc_vads" 
+msgid "Your PayZen site identifier"
+msgstr "Votre identifiant PayZen"
+
+#: uc_vads.module.php:154
+msgctxt "uc_vads" 
+msgid "Test mode certificate"
+msgstr "Certificat en mode test"
+
+#: uc_vads.module.php:155
+msgctxt "uc_vads" 
+msgid "Available in your PayZen back-office"
+msgstr "Disponible dans l'outil de gestion de caisse PayZen"
+
+#: uc_vads.module.php:160
+msgctxt "uc_vads" 
+msgid "Production mode certificate"
+msgstr "Certificat en mode production"
+
+#: uc_vads.module.php:161
+msgctxt "uc_vads" 
+msgid "Available in your PayZen back-office after validation"
+msgstr "Disponible dans l'outil de gestion de caisse PayZen après passage en production"
+
+#: uc_vads.module.php:166
+msgctxt "uc_vads" 
+msgid "Mode"
+msgstr "Mode"
+
+#: uc_vads.module.php:167
+msgctxt "uc_vads" 
+msgid "TEST or PRODUCTION"
+msgstr "TEST ou PRODUCTION"
+
+#: uc_vads.module.php:169
+msgctxt "uc_vads" 
+msgid "Test"
+msgstr "Test"
+
+#: uc_vads.module.php:170
+msgctxt "uc_vads" 
+msgid "Production"
+msgstr "Production"
+
+#: uc_vads.module.php:176
+msgctxt "uc_vads" 
+msgid "Payment gateway URL"
+msgstr "URL de la page de paiement"
+
+#: uc_vads.module.php:177
+msgctxt "uc_vads" 
+msgid "Link to the payment platform"
+msgstr "Lien vers la plateforme de paiement"
+
+#: uc_vads.module.php:184
+msgctxt "uc_vads" 
+msgid "Payment page"
+msgstr "Page de paiement"
+
+#: uc_vads.module.php:188
+msgctxt "uc_vads" 
+msgid "Language"
+msgstr "Langue"
+
+#: uc_vads.module.php:189
+msgctxt "uc_vads" 
+msgid "Default language of the payment gateway"
+msgstr "Langue par défaut de la page de paiement"
+
+#: uc_vads.module.php:190
+msgctxt "uc_vads" 
+msgid "Available languages"
+msgstr "Langues disponibles"
+
+#: uc_vads.module.php:190
+msgctxt "uc_vads" 
+msgid "Select ALL to use gateway config"
+msgstr "Sélectionner TOUTES pour utiliser la configuration de la plateforme"
+
+#: uc_vads.module.php:191
+msgctxt "uc_vads" 
+msgid "French"
+msgstr "Français"
+
+#: uc_vads.module.php:192
+msgctxt "uc_vads" 
+msgid "English"
+msgstr "Anglais"
+
+#: uc_vads.module.php:193
+msgctxt "uc_vads" 
+msgid "Spanish"
+msgstr "Espagnol"
+
+#: uc_vads.module.php:194
+msgctxt "uc_vads" 
+msgid "German"
+msgstr "Allemand"
+
+#: uc_vads.module.php:195
+msgctxt "uc_vads" 
+msgid "Italian"
+msgstr "Italien"
+
+#: uc_vads.module.php:196
+msgctxt "uc_vads" 
+msgid "Chinese"
+msgstr "Chinois"
+
+#: uc_vads.module.php:197
+msgctxt "uc_vads" 
+msgid "Japanese"
+msgstr "Japonais"
+
+#: uc_vads.module.php:198
+msgctxt "uc_vads" 
+msgid "Portuguese"
+msgstr "Portugais"
+
+#: uc_vads.module.php:200
+msgctxt "uc_vads" 
+msgid "Dutch"
+msgstr "Néerlandais"
+
+#: uc_vads.module.php:202
+msgctxt "uc_vads" 
+msgid "ALL"
+msgstr "TOUTES"
+
+#: uc_vads.module.php:204
+msgctxt "uc_vads" 
+msgid "Capture delay"
+msgstr "Délai avant remise en banque"
+
+#: uc_vads.module.php:205
+msgctxt "uc_vads" 
+msgid "Leave blank to use back-office parameter"
+msgstr "Laisser vide pour utiliser le paramètrage de l'outil de gestion de caisse"
+
+#: uc_vads.module.php:210
+msgctxt "uc_vads" 
+msgid "Validation mode"
+msgstr "Mode de validation"
+
+#: uc_vads.module.php:211
+msgctxt "uc_vads" 
+msgid "If manual is selected, you will have to confirm payments manually in your PayZen back-office"
+msgstr "Si manuel, vous devrez confirmer chaque paiement dans l'outil de gestion de caisse PayZen"
+
+#: uc_vads.module.php:213
+msgctxt "uc_vads" 
+msgid "Back-office default"
+msgstr "Paramètre par défaut"
+
+#: uc_vads.module.php:214
+msgctxt "uc_vads" 
+msgid "Automatic"
+msgstr "Automatique"
+
+#: uc_vads.module.php:215
+msgctxt "uc_vads" 
+msgid "Manual"
+msgstr "Manuel"
+
+#: uc_vads.module.php:221
+msgctxt "uc_vads" 
+msgid "Payment cards"
+msgstr "Cartes autorisées"
+
+#: uc_vads.module.php:222
+msgctxt "uc_vads" 
+msgid "Leave blank to accept all cards, or use values separated by \";\" (e.g. \"CB;VISA;MASTERCARD\")"
+msgstr "Laisser vide pour accepter toutes les cartes, ou utiliser les codes séparés par ; (ex: \"CB;VISA;MASTERCARD\")"
+
+#: uc_vads.module.php:229
+msgctxt "uc_vads" 
+msgid "Amount restrictions"
+msgstr "Restrictions sur le montant"
+
+#: uc_vads.module.php:234
+msgctxt "uc_vads" 
+msgid "Maximum Order Total"
+msgstr "Montant maximum"
+
+#: uc_vads.module.php:235
+msgctxt "uc_vads" 
+msgid "Maximum amount for which this payment method is available"
+msgstr "Montant maximum pour lequel cette méthode de paiement est disponible"
+
+#: uc_vads.module.php:240
+msgctxt "uc_vads" 
+msgid "Minimum Order Total"
+msgstr "Montant minimum"
+
+#: uc_vads.module.php:241
+msgctxt "uc_vads" 
+msgid "Minimum amount for which this payment method is available"
+msgstr "Montant minimum pour lequel cette méthode de paiement est disponible"
+
+#: uc_vads.module.php:248
+msgctxt "uc_vads" 
+msgid "payment"
+msgstr "Paiement"
+
+#: uc_vads.module.php:273
+msgctxt "uc_vads" 
+msgid "Return options"
+msgstr "Options de retour à la boutique"
+
+#: uc_vads.module.php:278
+msgctxt "uc_vads" 
+msgid "Automatic redirection"
+msgstr "Redirection automatique"
+
+#: uc_vads.module.php:279
+msgctxt "uc_vads" 
+msgid "Send the client back to the shop at the end of the payment process"
+msgstr "Renvoyer automatiquement le client vers la boutique à la fin du paiement"
+
+#: uc_vads.module.php:281
+msgctxt "uc_vads" 
+msgid "Disabled"
+msgstr "Désactivée"
+
+#: uc_vads.module.php:282
+msgctxt "uc_vads" 
+msgid "Enabled"
+msgstr "Activée"
+
+#: uc_vads.module.php:288
+msgctxt "uc_vads" 
+msgid "Success redirection timeout"
+msgstr "Délai avant redirection (paiement réussi)"
+
+#: uc_vads.module.php:289
+msgctxt "uc_vads" 
+msgid "Delay before redirection after a successful payment"
+msgstr "Délai avant redirection lorsque le paiement a réussi"
+
+#: uc_vads.module.php:294
+msgctxt "uc_vads" 
+msgid "Success redirection message"
+msgstr "Message affiché avant redirection (paiement réussi)"
+
+#: uc_vads.module.php:295
+msgctxt "uc_vads" 
+msgid "Displayed message after a successful payment"
+msgstr "Message affiché avant redirection lorsque le paiement a réussi"
+
+#: uc_vads.module.php:300
+msgctxt "uc_vads" 
+msgid "Error redirection timeout"
+msgstr "Délai avant redirection (paiement échoué)"
+
+#: uc_vads.module.php:301
+msgctxt "uc_vads" 
+msgid "Delay before redirection after a failed payment"
+msgstr "Délai avant redirection lorsque le paiement a échoué"
+
+#: uc_vads.module.php:306
+msgctxt "uc_vads" 
+msgid "Error redirection message"
+msgstr "Message affiché avant redirection (paiement échoué)"
+
+#: uc_vads.module.php:307
+msgctxt "uc_vads" 
+msgid "Displayed message after a failed payment"
+msgstr "Message affiché avant redirection lorsque le paiement a échoué"
+
+#: uc_vads.module.php:312
+msgctxt "uc_vads" 
+msgid "Return mode"
+msgstr "Mode de retour"
+
+#: uc_vads.module.php:313
+msgctxt "uc_vads" 
+msgid "Method to use when transfering the result of the payment through the client browser"
+msgstr "Méthode à utiliser lors du transfert de la réponse de la banque par le navigateur du client"
+
+#: uc_vads.module.php:315
+msgctxt "uc_vads" 
+msgid "GET (parameters in url)"
+msgstr "GET (réponse dans l'url)"
+
+#: uc_vads.module.php:316
+msgctxt "uc_vads" 
+msgid "POST (may cause warnings on client browser)"
+msgstr "POST (peut provoquer des messages d'avertissement dans le navigateur)"
+
+#: uc_vads.module.php:317
+msgctxt "uc_vads" 
+msgid "NONE (none parameter)"
+msgstr "NONE (aucun paramètre)"
+
+#: uc_vads.module.php:323
+msgctxt "uc_vads" 
+msgid "Success url"
+msgstr "Url de succès"
+
+#: uc_vads.module.php:324
+msgctxt "uc_vads" 
+msgid "Url the client will be redirected to after a successful payment"
+msgstr "Le client sera redirigé vers cette url après un paiement réussi"
+
+#: uc_vads.module.php:329
+msgctxt "uc_vads" 
+msgid "Return url"
+msgstr "Url de retour"
+
+#: uc_vads.module.php:330
+msgctxt "uc_vads" 
+msgid "Url the client will be redirected to by default"
+msgstr "Le client sera redirigé vers cette url par défaut"
+
+#: uc_vads.module.php:335
+msgctxt "uc_vads" 
+msgid "Silent url to set in the PayZen back-office"
+msgstr "Url serveur à renseigner dans l'outil de gestion de caisse PayZen"
+
+#: uc_vads.module.php:359
+msgctxt "uc_vads" 
+msgid "This payment method is not available for your order amount"
+msgstr "Ce mode de paiement n'est pas disponible pour le montant de votre commande"
+
+#: uc_vads.module.php:383
+msgctxt "uc_vads" 
+msgid "Unsupported currency"
+msgstr "Devise non supportée"
+
+#: uc_vads.module.php:453
+msgctxt "uc_vads" 
+msgid "Submit Order"
+msgstr "Soumettre la commande"
+
+#: uc_vads.module.php:489
+msgctxt "uc_vads" 
+msgid "Authentication failed"
+msgstr "Authentification échouée"
+
+#: uc_vads.module.php:518
+msgctxt "uc_vads" 
+msgid "Order not found"
+msgstr "Commande non trouvée"
+
+#: uc_vads.module.php:527
+msgctxt "uc_vads" 
+msgid  "PayZen Transaction ID: @trans_id, Payment Mean : @card_brand, Card Number : @card_number"
+msgstr "Identifiant de Transaction PayZen: @trans_id, Moyen de paiement : @card_brand, Numéro de carte : @card_number"
+
+#: uc_vads.module.php:537
+msgctxt "uc_vads" 
+msgid "Payment of @amount submitted through PayZen."
+msgstr "Paiement de @amount effectué via PayZen"
+
+#: uc_vads.module.php:549
+msgctxt "uc_vads" 
+msgid "Payment confirmation was not received from gateway. Have you properly configured the check url in your PayZen back-office ?"
+msgstr "Le paiement n'a pas été confirmé par la plateforme. Avez-vous configuré correctement l'url serveur dans l'outil de gestion de caisse PayZen"
+
+#: uc_vads.module.php:571
+msgctxt "uc_vads" 
+msgid "The payment process was not completed. Your order has not been registered."
+msgstr "Le processus de paiement a été interrompu. Votre commande n'a pas été validée."
+
+#: uc_vads.module.php:601
+msgctxt "uc_vads" 
+msgid "An error has occurred."
+msgstr "Une erreur s'est produite."
+
+#: uc_vads.module.php:605
+msgctxt "uc_vads" 
+msgid "Invalid payment confirmation received for an already accepted order."
+msgstr "Code de paiement invalide reçu pour une commande déjà acceptée."

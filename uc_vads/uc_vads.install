@@ -1,0 +1,52 @@
+<?php
+#####################################################################################################
+#
+#					Module pour la plateforme de paiement PayZen
+#						Version : 1.0 (révision 33926)
+#									########################
+#					Développé pour Ubercart
+#						Version : 3.0
+#						Compatibilité plateforme : V2
+#									########################
+#					Développé par Lyra Network
+#						http://www.lyra-network.com/
+#						05/03/2012
+#						Contact : support@payzen.eu
+#
+#####################################################################################################
+
+/**
+ * @file
+ * Install, update and uninstall functions for the uc_vads module.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function uc_vads_uninstall() {
+	// Find ids of locales to delete
+	$res_ls = db_select('locales_source', 'l_s')
+			->fields('l_s', array('lid'))
+			->condition('context', 'uc_vads', '=')
+			->execute();
+	
+	$lids = array();
+	foreach ($res_ls as $val) {
+		$lids[] = $val->lid;
+	}
+
+	// Delete module translation targets
+	$req = 'DELETE FROM {locales_target} WHERE lid IN (' . implode(',', $lids) . ')';
+	db_query($req);
+
+	// Delete module translation sources
+	$req = 'DELETE FROM {locales_source} WHERE lid IN (' . implode(',', $lids) . ')';
+	db_query($req);
+	
+	// Delete module parameters
+	db_delete('variable')
+		->condition('name', 'uc\_vads\_%', 'LIKE')
+		->execute();	
+}
+
+?>
