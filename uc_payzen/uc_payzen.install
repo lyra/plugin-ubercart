@@ -1,0 +1,43 @@
+<?php
+/**
+ * Copyright © Lyra Network.
+ * This file is part of PayZen for Ubercart. See COPYING.md for license details.
+ *
+ * @author    Lyra Network <https://www.lyra.com>
+ * @copyright Lyra Network
+ * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL v2)
+ */
+
+/**
+ * Delete plugin settings and translations before uninstall.
+ */
+function uc_payzen_uninstall()
+{
+    // Delete plugin parameters.
+    db_delete('variable')
+        ->condition('name', 'uc\_payzen\_%', 'LIKE')
+        ->execute();
+
+    if (!db_table_exists('locales_source')) {
+        return;
+    }
+
+    // Find IDs of locales to delete.
+    $query = db_select('locales_source', 'ls')
+                ->fields('ls', array('lid'))
+                ->condition('context', 'uc_payzen', '=');
+    $res_ls = $query->execute();
+
+    $ids = array();
+    foreach ($res_ls as $val) {
+        $ids[] = $val->lid;
+    }
+
+    // Delete plugin translation targets.
+    $req = 'DELETE FROM {locales_target} WHERE lid IN (' . implode(',', $ids) . ')';
+    db_query($req);
+
+    // Delete plugin translation sources.
+    $req = 'DELETE FROM {locales_source} WHERE lid IN (' . implode(',', $ids) . ')';
+    db_query($req);
+}

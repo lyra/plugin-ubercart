@@ -1,0 +1,777 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ubercart PayZen 2.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-13 15:59+0100\n"
+"PO-Revision-Date: 2019-07-23 09:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: Lyra Network <support@payzen.eu>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: uc_payzen_t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../uc_payzen.module:53
+msgctxt "uc_payzen"
+msgid "Processes payments using @gateway secure gateway in Ubercart."
+msgstr "Traite les paiements en utilisant la plateforme sécurisée @gateway."
+
+#: ../uc_payzen.module:65 ../uc_payzen.module:76 ../uc_payzen.module:473
+msgctxt "uc_payzen"
+msgid "Payment by credit card"
+msgstr "Paiement par carte bancaire"
+
+#: ../uc_payzen.module:74
+msgctxt "uc_payzen"
+msgid "@gateway - Standard payment"
+msgstr "@gateway  - Paiement standard"
+
+#: ../uc_payzen.module:77
+msgctxt "uc_payzen"
+msgid "Pay by credit card using @gateway payment gateway."
+msgstr "Payer par carte de crédit via la plateforme de paiement@gateway."
+
+#: ../uc_payzen.module:87
+msgctxt "uc_payzen"
+msgid "Payment by credit card in installments"
+msgstr "Paiement par carte bancaire en plusieurs fois"
+
+#: ../uc_payzen.module:96
+msgctxt "uc_payzen"
+msgid "@gateway - Payment in installments"
+msgstr "@gateway  - Paiement en plusieurs fois"
+
+#: ../uc_payzen.module:98 ../uc_payzen.module:525
+msgctxt "uc_payzen"
+msgid "Payment in installments"
+msgstr "Paiement en plusieurs fois"
+
+#: ../uc_payzen.module:99
+msgctxt "uc_payzen"
+msgid "Pay by credit card in installments with @gateway payment gateway."
+msgstr ""
+"Payer par carte de crédit en plusieurs fois via la plateforme de paiement @gateway."
+
+#: ../uc_payzen.module:167
+msgctxt "uc_payzen"
+msgid "Your payment in installments option"
+msgstr "Votre option de paiement en plusieurs fois"
+
+#: ../uc_payzen.module:167
+msgctxt "uc_payzen"
+msgid "Choose a payment in installments option below"
+msgstr "Choisir une option de paiement en plusieurs fois ci-dessous"
+
+#: ../uc_payzen.module:210
+msgctxt "uc_payzen"
+msgid "Payment option"
+msgstr "Option de paiement"
+
+#: ../uc_payzen.module:218
+msgctxt "uc_payzen"
+msgid "MODULE INFORMATION"
+msgstr "INFORMATIONS SUR LE MODULE"
+
+#: ../uc_payzen.module:228
+msgctxt "uc_payzen"
+msgid "Developed by"
+msgstr "Développé par"
+
+#: ../uc_payzen.module:233
+msgctxt "uc_payzen"
+msgid "Contact us"
+msgstr "Courriel de contact"
+
+#: ../uc_payzen.module:238
+msgctxt "uc_payzen"
+msgid "Module version"
+msgstr "Version du module"
+
+#: ../uc_payzen.module:243
+msgctxt "uc_payzen"
+msgid "Gateway version"
+msgstr "Version de la plateforme"
+
+#: ../class-wc-gateway-payzen.php:270
+msgctxt "uc_payzen"
+msgid "Click to view the module configuration documentation:"
+msgstr "Cliquer pour accéder à la documentation de configuration du module:"
+
+#: ../uc_payzen.module:257
+msgctxt "uc_payzen"
+msgid "GENERAL CONFIGURATION"
+msgstr "CONFIGURATION GÉNÉRALE"
+
+#: ../uc_payzen.module:262
+msgctxt "uc_payzen"
+msgid "STANDARD PAYMENT"
+msgstr "PAIEMENT STANDARD"
+
+#: ../uc_payzen.module:267
+msgctxt "uc_payzen"
+msgid "PAYMENT IN INSTALLMENTS"
+msgstr "PAIEMENT EN PLUSIEURS FOIS"
+
+#: ../uc_payzen.module:279
+msgctxt "uc_payzen"
+msgid "PAYMENT GATEWAY ACCESS"
+msgstr "ACCÈS À LA PLATEFORME"
+
+#: ../uc_payzen.module:284
+msgctxt "uc_payzen"
+msgid "Shop ID"
+msgstr "Identifiant boutique"
+
+#: ../uc_payzen.module:285
+msgctxt "uc_payzen"
+msgid "The identifier provided by @gateway."
+msgstr "L'identifiant fourni par @gateway."
+
+#: ../uc_payzen.module:290
+msgctxt "uc_payzen"
+msgid "Key in test mode"
+msgstr "Clé en mode test"
+
+#: ../uc_payzen.module:291
+msgctxt "uc_payzen"
+msgid "Key provided by @gateway for test mode (available in @backoffice Back Office)."
+msgstr ""
+"Clé fournie par @gateway pour le mode test (disponible sur le Back Office @backoffice)."
+
+#: ../uc_payzen.module:296
+msgctxt "uc_payzen"
+msgid "Key in production mode"
+msgstr "Clé en mode production"
+
+#: ../uc_payzen.module:297
+msgctxt "uc_payzen"
+msgid ""
+"Key provided by @gateway (available in @backoffice Back Office after enabling "
+"production mode)."
+msgstr ""
+"Clé fournie par @gateway (disponible sur le Back Office @backoffice après passage en "
+"production)."
+
+#: ../uc_payzen.module:302
+msgctxt "uc_payzen"
+msgid "Mode"
+msgstr "Mode"
+
+#: ../uc_payzen.module:303
+msgctxt "uc_payzen"
+msgid "The context mode of this module."
+msgstr "Mode de fonctionnement du module."
+
+#: ../uc_payzen.module:305
+msgctxt "uc_payzen"
+msgid "TEST"
+msgstr "TEST"
+
+#: ../uc_payzen.module:306
+msgctxt "uc_payzen"
+msgid "PRODUCTION"
+msgstr "PRODUCTION"
+
+#: ../uc_payzen.module:312
+msgctxt "uc_payzen"
+msgid "Signature algorithm"
+msgstr "Algorithme de signature"
+
+#: ../uc_payzen.module:313
+msgctxt "uc_payzen"
+msgid ""
+"Algorithm used to compute the payment form signature. Selected algorithm must be the "
+"same as one configured in the @backoffice Back Office.<br /><b>The SHA-256 algorithm "
+"should not be activated if it is not yet available in the @backoffice Back Office, the "
+"feature will be available soon.</b>"
+msgstr ""
+"Algorithme utilisé pour calculer la signature du formulaire de paiement. L'algorithme "
+"sélectionné doit être le même que celui configuré sur le Back Office @backoffice. <br /"
+"><b>Le HMAC-SHA-256 ne doit pas être activé si celui-ci n'est pas encore disponible "
+"depuis le Back Office @backoffice, la fonctionnalité sera disponible prochainement.</b>"
+
+#: ../uc_payzen.module:322
+msgctxt "uc_payzen"
+msgid "Instant Payment Notification URL"
+msgstr "URL de notification"
+
+#: ../uc_payzen.module:325
+msgctxt "uc_payzen"
+msgid "URL to copy into your @backoffice Back Office > Settings > Notification rules."
+msgstr ""
+"URL à copier dans le Back Office @backoffice > Paramétrage > Règles de notifications."
+
+#: ../uc_payzen.module:329
+msgctxt "uc_payzen"
+msgid "Payment page URL"
+msgstr "URL de la page de paiement"
+
+#: ../uc_payzen.module:330
+msgctxt "uc_payzen"
+msgid "Link to the payment page."
+msgstr "URL vers laquelle l'acheteur sera redirigé pour le paiement."
+
+#: ../uc_payzen.module:339
+msgctxt "uc_payzen"
+msgid "PAYMENT PAGE"
+msgstr "PAGE DE PAIEMENT"
+
+#: ../uc_payzen.module:345
+msgctxt "uc_payzen"
+msgid "Default language"
+msgstr "Langue par défaut"
+
+#: ../uc_payzen.module:346
+msgctxt "uc_payzen"
+msgid "Default language on the payment page."
+msgstr "Sélectionner la langue par défaut à utiliser sur la page de paiement."
+
+#: ../uc_payzen.module:353
+msgctxt "uc_payzen"
+msgid "Available languages"
+msgstr "Langues disponibles"
+
+#: ../uc_payzen.module:354
+msgctxt "uc_payzen"
+msgid ""
+"Languages available on the payment page. If you do not select any, all the supported "
+"languages will be available."
+msgstr ""
+"Sélectionner les langues à proposer sur la page de paiement. Ne rien sélectionner pour "
+"utiliser la configuration de la plateforme."
+
+#: ../uc_payzen.module:360
+msgctxt "uc_payzen"
+msgid "Capture delay"
+msgstr "Délai avant remise en banque"
+
+#: ../uc_payzen.module:361
+msgctxt "uc_payzen"
+msgid ""
+"The number of days before the bank capture (adjustable in your @backoffice Back Office)."
+msgstr ""
+"Le nombre de jours avant la remise en banque (paramétrable sur votre Back Office "
+"@backoffice)."
+
+#: ../uc_payzen.module:366
+msgctxt "uc_payzen"
+msgid "Validation mode"
+msgstr "Mode de validation"
+
+#: ../uc_payzen.module:367
+msgctxt "uc_payzen"
+msgid ""
+"If manual is selected, you will have to confirm payments manually in your your "
+"@backoffice Back Office."
+msgstr ""
+"En mode manuel, vous devrez confirmer les paiements dans le Back Office@backoffice."
+
+#: ../uc_payzen.module:369
+msgctxt "uc_payzen"
+msgid "Back Office configuration"
+msgstr "Configuration Back Office"
+
+#: ../uc_payzen.module:370
+msgctxt "uc_payzen"
+msgid "Automatic"
+msgstr "Automatique"
+
+#: ../uc_payzen.module:371
+msgctxt "uc_payzen"
+msgid "Manual"
+msgstr "Manuel"
+
+#: ../uc_payzen.module:378
+msgctxt "uc_payzen"
+msgid "Card Types"
+msgstr "Types de carte"
+
+#: ../uc_payzen.module:379
+msgctxt "uc_payzen"
+msgid ""
+"The card type(s) that can be used for the payment. Select none to use gateway "
+"configuration."
+msgstr ""
+"Le(s) type(s) de carte pouvant être utilisé(s) pour le paiement. Ne rien sélectionner "
+"pour utiliser la configuration de la plateforme."
+
+#: ../uc_payzen.module:389
+msgctxt "uc_payzen"
+msgid "SELECTIVE 3DS"
+msgstr "3DS SÉLECTIF"
+
+#: ../uc_payzen.module:392
+msgctxt "uc_payzen"
+msgid "Disable 3DS"
+msgstr "Désactiver 3DS"
+
+#: ../uc_payzen.module:395
+msgctxt "uc_payzen"
+msgid ""
+"Amount below which 3DS will be disabled. Needs subscription to selective 3DS option. "
+"For more information, refer to the module documentation."
+msgstr ""
+"Montant en dessous duquel 3DS sera désactivé. Nécessite la souscription à l'option 3DS "
+"sélectif. Pour plus d'informations, reportez-vous à la documentation du module."
+
+#: ../uc_payzen.module:403
+msgctxt "uc_payzen"
+msgid "RETURN TO SHOP"
+msgstr "RETOUR À LA BOUTIQUE"
+
+#: ../uc_payzen.module:408
+msgctxt "uc_payzen"
+msgid "Automatic redirection"
+msgstr "Redirection automatique"
+
+#: ../uc_payzen.module:409
+msgctxt "uc_payzen"
+msgid ""
+"If enabled, the buyer is automatically redirected to your site at the end of the "
+"payment."
+msgstr ""
+"Si activée, l'acheteur sera redirigé automatiquement vers votre site à la fin du "
+"paiement."
+
+#: ../uc_payzen.module:411 ../uc_payzen.module:464 ../uc_payzen.module:516
+msgctxt "uc_payzen"
+msgid "Disabled"
+msgstr "Désactivée"
+
+#: ../uc_payzen.module:412 ../uc_payzen.module:465 ../uc_payzen.module:517
+msgctxt "uc_payzen"
+msgid "Enabled"
+msgstr "Activée"
+
+#: ../uc_payzen.module:418
+msgctxt "uc_payzen"
+msgid "Redirection timeout on success"
+msgstr "Temps avant redirection (succès)"
+
+#: ../uc_payzen.module:419
+msgctxt "uc_payzen"
+msgid ""
+"Time in seconds (0-300) before the buyer is automatically redirected to your website "
+"after a successful payment."
+msgstr ""
+"Temps en secondes (0-300) avant que l'acheteur ne soit redirigé automatiquement vers "
+"votre site lorsque le paiement a réussi."
+
+#: ../uc_payzen.module:424
+msgctxt "uc_payzen"
+msgid "Redirection message on success"
+msgstr "Message avant redirection (succès)"
+
+#: ../uc_payzen.module:425
+msgctxt "uc_payzen"
+msgid ""
+"Message displayed on the payment page prior to redirection after a successful payment."
+msgstr ""
+"Message affiché sur la page de paiement avant redirection lorsque le paiement a réussi."
+
+#: ../uc_payzen.module:453
+msgctxt "uc_payzen"
+msgid "Redirection to shop in a few seconds..."
+msgstr "Redirection vers la boutique dans quelques instants..."
+
+#: ../uc_payzen.module:430
+msgctxt "uc_payzen"
+msgid "Redirection timeout on failure"
+msgstr "Temps avant redirection (échec)"
+
+#: ../uc_payzen.module:431
+msgctxt "uc_payzen"
+msgid ""
+"Time in seconds (0-300) before the buyer is automatically redirected to your website "
+"after a declined payment."
+msgstr ""
+"Temps en secondes (0-300) avant que l'acheteur ne soit redirigé automatiquement vers "
+"votre site lorsque le paiement a échoué."
+
+#: ../uc_payzen.module:436
+msgctxt "uc_payzen"
+msgid "Redirection message on failure"
+msgstr "Message avant redirection (échec)"
+
+#: ../uc_payzen.module:437
+msgctxt "uc_payzen"
+msgid ""
+"Message displayed on the payment page prior to redirection after a declined payment."
+msgstr ""
+"Message affiché sur la page de paiement avant redirection, lorsque le paiement a échoué."
+
+#: ../uc_payzen.module:442
+msgctxt "uc_payzen"
+msgid "Return mode"
+msgstr "Mode de retour"
+
+#: ../uc_payzen.module:443
+msgctxt "uc_payzen"
+msgid ""
+"Method that will be used for transmitting the payment result from the payment page to "
+"your shop."
+msgstr ""
+"Façon dont l'acheteur transmettra le résultat du paiement lors de son retour à la "
+"boutique."
+
+#: ../uc_payzen.module:457 ../uc_payzen.module:502
+msgctxt "uc_payzen"
+msgid "MODULE SETTINGS"
+msgstr "PARAMÈTRES DE BASE"
+
+#: ../uc_payzen.module:461 ../uc_payzen.module:513
+msgctxt "uc_payzen"
+msgid "Activation"
+msgstr "Activation"
+
+#: ../uc_payzen.module:462
+msgctxt "uc_payzen"
+msgid "Enables / disables standard payment."
+msgstr "Activer / désactiver le paiement standard."
+
+#: ../uc_payzen.module:471 ../uc_payzen.module:523
+msgctxt "uc_payzen"
+msgid "Method title"
+msgstr "Titre de la méthode"
+
+#: ../uc_payzen.module:472 ../uc_payzen.module:524
+msgctxt "uc_payzen"
+msgid "Method title to display on payment means page."
+msgstr "Titre de la méthode à afficher sur la page des moyens de paiement."
+
+#: ../uc_payzen.module:481 ../uc_payzen.module:533
+msgctxt "uc_payzen"
+msgid "AMOUNT RESTRICTIONS"
+msgstr "RESTRICTIONS SUR LE MONTANT"
+
+#: ../uc_payzen.module:485 ../uc_payzen.module:537
+msgctxt "uc_payzen"
+msgid "Minimum amount"
+msgstr "Montant minimum"
+
+#: ../uc_payzen.module:486 ../uc_payzen.module:538
+msgctxt "uc_payzen"
+msgid "Minimum amount to activate this payment method."
+msgstr "Montant minimum pour lequel cette méthode de paiement est disponible."
+
+#: ../uc_payzen.module:491 ../uc_payzen.module:543
+msgctxt "uc_payzen"
+msgid "Maximum amount"
+msgstr "Montant maximum"
+
+#: ../uc_payzen.module:492 ../uc_payzen.module:544
+msgctxt "uc_payzen"
+msgid "Maximum amount to activate this payment method."
+msgstr "Montant maximum pour lequel cette méthode de paiement est disponible."
+
+#: ../uc_payzen.module:508
+msgctxt "uc_payzen"
+msgid ""
+"ATTENTION: The payment in installments feature activation is subject to the prior "
+"agreement of Société Générale.<br />If you enable this feature while you have not the "
+"associated option, an error 10000 – INSTALLMENTS_NOT_ALLOWED or 07 - PAYMENT_CONFIG "
+"will occur and the buyer will not be able to pay."
+msgstr ""
+"ATTENTION: L'activation de la fonctionnalité de paiement en nfois est soumise à accord "
+"préalable de Société Générale.<br />Si vous activez cette fonctionnalité alors que vous "
+"ne disposez pas de cette option, une erreur 10000 – INSTALLMENTS_NOT_ALLOWED ou 07 "
+"PAYMENT_CONFIG sera générée et l'acheteur sera dans l'incapacité de payer."
+
+#: ../uc_payzen.module:514
+msgctxt "uc_payzen"
+msgid "Enables / disables multiple payment."
+msgstr "Activer / désactiver le paiement multiple."
+
+#: ../uc_payzen.module:553
+msgctxt "uc_payzen"
+msgid "PAYMENT OPTIONS"
+msgstr "OPTIONS DE PAIEMENT"
+
+#: ../uc_payzen.module:558
+msgctxt "uc_payzen"
+msgid "Payment options"
+msgstr "Options de paiement"
+
+#: ../uc_payzen.module:559
+msgctxt "uc_payzen"
+msgid ""
+"Click on &laquo;Add&raquo; button to configure one or more payment options. <br /"
+"><b>Label: </b>The option label to display on the frontend. <br /><b>Min. amount: </"
+"b>Minimum amount to enable the payment option. <br /><b>Max. amount: </b>Maximum amount "
+"to enable the payment option. <br /><b>Contract: </b>ID of the contract to use with the "
+"option. <br /><b>Count: </b>Total number of payments. <br /><b>Period: </b>Delay (in "
+"days) between payments. <br /><b>1st payment: </b>Amount of first payment, in "
+"percentage of total amount. If empty, all payments will have the same amount."
+msgstr ""
+"Cliquer sur le bouton Ajouter pour configurer une ou plusieurs options de paiement. "
+"<br /><b>Libellé: </b>Texte décrivant l'option de paiement multiple. <br /><b>Montant "
+"min.: </b>Montant minimum pour proposer l'option. <br /><b>Montant max.: </b>Montant "
+"maximum pour proposer l'option. <br /><b>Contrat: </b>ID du contrat à utiliser avec "
+"l'option. <br /><b>Nombre: </b>Nombre total d'échéances. <br /><b>Période: </b>Délai "
+"entre deux échéances (en jours). <br /><b>1er paiement: </b>Montant de la première "
+"échéance en pourcentage du total. Si vide, toutes les échéances auront le même montant."
+
+#: ../uc_payzen.module:643
+msgctxt "uc_payzen"
+msgid "One or more values are invalid for field « @field ». Only valid entries are saved."
+msgstr ""
+"Une ou plusieurs valeurs sont invalides pour le champ « @field ». Seules les valeurs "
+"valides sont sauvegardées."
+
+#: ../uc_payzen.module:788
+msgctxt "uc_payzen"
+msgid "Submit Order"
+msgstr "Soumettre la commande"
+
+#: ../uc_payzen.module:824 ../uc_payzen.module:844 ../uc_payzen.module:1024
+msgctxt "uc_payzen"
+msgid "An error occurred in the payment process."
+msgstr "Une erreur est survenue durant le processus de paiement."
+
+#: ../uc_payzen.module:857
+msgctxt "uc_payzen"
+msgid ""
+"<b>GOING INTO PRODUCTION:</b> You want to know how to put your shop into production "
+"mode, please read chapters «Proceeding to test phase» and «Shifting the shop to "
+"production mode» in the documentation of the module."
+msgstr ""
+"<b>PASSAGE EN PRODUCTION:</b> Vous souhaitez savoir comment passer votre boutique en "
+"production, merci de consulter les chapitres «Procéder à la phase des tests» et "
+"«Passage d'une boutique en mode production» de la documentation du module."
+
+#: ../uc_payzen.module:877
+msgctxt "uc_payzen"
+msgid "(card brand chosen by buyer)"
+msgstr "(marque de carte choisie par l'acheteur)"
+
+#: ../uc_payzen.module:879
+msgctxt "uc_payzen"
+msgid "(default card brand used)"
+msgstr "(marque de carte par défaut utilisée)"
+
+#: ../uc_payzen.module:889
+msgctxt "uc_payzen"
+msgid "NO"
+msgstr "NON"
+
+#: ../uc_payzen.module:892
+msgctxt "uc_payzen"
+msgid "YES"
+msgstr "OUI"
+
+#: ../uc_payzen.module:954
+msgctxt "uc_payzen"
+msgid "Payment of @amount submitted through @gateway. "
+msgstr "Paiement de @amount effectué via @gateway."
+
+#: ../uc_payzen.module:965
+msgctxt "uc_payzen"
+msgid "The shop is in maintenance mode.The automatic notification cannot work."
+msgstr ""
+"La boutique est en mode maintenance. La validation automatique ne peut fonctionner."
+
+#: ../uc_payzen.module:967
+msgctxt "uc_payzen"
+msgid ""
+"The automatic validation has not worked. Have you correctly set up the notification URL "
+"in the @backoffice Back Office ?"
+msgstr ""
+"La validation automatique n'a pas fonctionné. Avez-vous configuré correctement l'URL de "
+"notification dans le Back Office @backoffice ?"
+
+#: ../uc_payzen.module:968
+msgctxt "uc_payzen"
+msgid ""
+"For understanding the problem, please read the documentation of the module: <br />&nbsp;"
+"&nbsp;&nbsp;- Chapter &laquo;To read carefully before going further&raquo;<br />&nbsp;"
+"&nbsp;&nbsp;- Chapter &laquo;Notification URL settings&raquo;"
+msgstr ""
+"Afin de comprendre la problématique, reportez vous à la documentation du module: <br /"
+">&nbsp;&nbsp;&nbsp;- Chapitre &laquo;A lire attentivement avant d'aller loin&raquo;<br /"
+">&nbsp;&nbsp;&nbsp;- Chapitre &laquo;Paramétrage de l'URL de notification&raquo;"
+
+#: ../uc_payzen.module:994
+msgctxt "uc_payzen"
+msgid "Your payment was not accepted. Please, try to re-order."
+msgstr "Votre paiement n'a pas été accepté. Veuillez repasser votre commande."
+
+#: ../uc_payzen.admin.inc:22 ../uc_payzen.admin.inc:50 ../uc_payzen.admin.inc:57
+msgctxt "uc_payzen"
+msgid "Delete"
+msgstr "Supprimer"
+
+#: ../uc_payzen.admin.inc:22 ../uc_payzen.admin.inc:57
+msgctxt "uc_payzen"
+msgid "Add"
+msgstr "Ajouter"
+
+#: ../uc_payzen.admin.inc:27
+msgctxt "uc_payzen"
+msgid "Label"
+msgstr "Libellé"
+
+#: ../uc_payzen.admin.inc:28
+msgctxt "uc_payzen"
+msgid "Min. amount"
+msgstr "Montant min"
+
+#: ../uc_payzen.admin.inc:29
+msgctxt "uc_payzen"
+msgid "Max. amount"
+msgstr "Montant max"
+
+#: ../uc_payzen.admin.inc:30
+msgctxt "uc_payzen"
+msgid "Contract"
+msgstr "Contrat"
+
+#: ../uc_payzen.admin.inc:31
+msgctxt "uc_payzen"
+msgid "Count"
+msgstr "Nombre"
+
+#: ../uc_payzen.admin.inc:32
+msgctxt "uc_payzen"
+msgid "Period"
+msgstr "Période"
+
+#: ../uc_payzen.admin.inc:33
+msgctxt "uc_payzen"
+msgid "1st payment"
+msgstr "1er paiement"
+
+#: ../uc_payzen.module:342
+msgctxt "uc_payzen"
+msgid "French"
+msgstr "Français"
+
+#: ../uc_payzen.module:342
+msgctxt "uc_payzen"
+msgid "German"
+msgstr "Allemand"
+
+#: ../uc_payzen.module:342
+msgctxt "uc_payzen"
+msgid "English"
+msgstr "Anglais"
+
+#: ../uc_payzen.module:342
+msgctxt "uc_payzen"
+msgid "Spanish"
+msgstr "Espagnol"
+
+#: ../uc_payzen.module:342
+msgctxt "uc_payzen"
+msgid "Chinese"
+msgstr "Chinois"
+
+#: ../uc_payzen.module:342
+msgctxt "uc_payzen"
+msgid "Italian"
+msgstr "Italien"
+
+#: ../uc_payzen.module:342
+msgctxt "uc_payzen"
+msgid "Japanese"
+msgstr "Japonais"
+
+#: ../uc_payzen.module:342
+msgctxt "uc_payzen"
+msgid "Portuguese"
+msgstr "Portugais"
+
+#: ../uc_payzen.module:342
+msgctxt "uc_payzen"
+msgid "Dutch"
+msgstr "Néerlandais"
+
+#: ../uc_payzen.module:342
+msgctxt "uc_payzen"
+msgid "Russian"
+msgstr "Russe"
+
+#: ../uc_payzen.module:342
+msgctxt "uc_payzen"
+msgid "Swedish"
+msgstr "Suédois"
+
+#: ../uc_payzen.module:342
+msgctxt "uc_payzen"
+msgid "Polish"
+msgstr "Polonais"
+
+#: ../uc_payzen.module:342
+msgctxt "uc_payzen"
+msgid "Turkish"
+msgstr "Turc"
+
+#: ../uc_payzen.module:126
+msgctxt "uc_payzen"
+msgid "Amount"
+msgstr "Montant"
+
+#: ../uc_payzen.module:126
+msgctxt "uc_payzen"
+msgid "Transaction ID"
+msgstr "Numéro de transaction"
+
+#: ../uc_payzen.module:126
+msgctxt "uc_payzen"
+msgid "Transaction UUID"
+msgstr "UUID de transaction"
+
+#: ../uc_payzen.module:126
+msgctxt "uc_payzen"
+msgid "Transaction Type"
+msgstr "Type de transaction"
+
+#: ../uc_payzen.module:126
+msgctxt "uc_payzen"
+msgid "Transaction Status"
+msgstr "Statut de la transaction"
+
+#: ../uc_payzen.module:126
+msgctxt "uc_payzen"
+msgid "Sequence Number"
+msgstr "Numéro de séquence"
+
+#: ../uc_payzen.module:126
+msgctxt "uc_payzen"
+msgid "Means of Payment"
+msgstr "Moyen de paiement"
+
+#: ../uc_payzen.module:126
+msgctxt "uc_payzen"
+msgid "Card Number"
+msgstr "Numéro de Carte"
+
+#: ../uc_payzen.module:126
+msgctxt "uc_payzen"
+msgid "Expiration Date"
+msgstr "Date d'expiration"
+
+#: ../uc_payzen.module:126
+msgctxt "uc_payzen"
+msgid "3DS Authentification"
+msgstr "Authentification 3DS"
+
+#: ../uc_payzen.module:126
+msgctxt "uc_payzen"
+msgid "3DS Certificate"
+msgstr "Certificat 3DS"
+
+#: ../uc_payzen.module:126
+msgctxt "uc_payzen"
+msgid "Fraud Control Result"
+msgstr "Résultat des contrôles de fraude"
+
+#: ../uc_payzen.module:126
+msgctxt "uc_payzen"
+msgid "Advanced Risk Assessment Result"
+msgstr "Résultat de la gestion des risques avancée"
