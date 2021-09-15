@@ -222,8 +222,7 @@ function uc_payment_method_uc_payzen($op, &$order, $form = null, &$form_state = 
 
         case 'cart-process':
             unset($_SESSION['payzen_multi_option']);
-
-            $order->data = array();
+            unset($order->data['payzen_multi_option']);
 
             if (($form_state['values']['panes']['payment']['payment_method'] === 'payzen_multi')
                 && isset($_POST['panes']['payment']['payzen_multi_option'])) {
@@ -438,7 +437,7 @@ function uc_payment_method_uc_payzen($op, &$order, $form = null, &$form_state = 
             $form['uc_payzen_settings']['general']['payment_page']['uc_payzen_validation_mode'] = array(
                 '#type' => 'select',
                 '#title' => uc_payzen_t('Validation mode'),
-                '#description' => uc_payzen_t('If manual is selected, you will have to confirm payments manually in your your @backoffice Back Office.', array('@backoffice' => $backoffice)),
+                '#description' => uc_payzen_t('If manual is selected, you will have to confirm payments manually in your @backoffice Back Office.', array('@backoffice' => $backoffice)),
                 '#options' => array(
                     '' => uc_payzen_t('Back Office configuration'),
                     '0' => uc_payzen_t('Automatic'),
@@ -460,13 +459,13 @@ function uc_payment_method_uc_payzen($op, &$order, $form = null, &$form_state = 
                 '#type' => 'fieldset',
                 '#collapsible' => true,
                 '#collapsed' => true,
-                '#title' => uc_payzen_t('SELECTIVE 3DS')
+                '#title' => uc_payzen_t('CUSTOM 3DS')
             );
             $form['uc_payzen_settings']['general']['selective_3ds']['uc_payzen_3ds_min_amount'] = array(
-                '#title' => uc_payzen_t('Disable 3DS'),
+                '#title' => uc_payzen_t('Manage 3DS'),
                 '#type' => 'textfield',
                 '#default_value' => variable_get('uc_payzen_3ds_min_amount', ''),
-                '#description' => uc_payzen_t('Amount below which 3DS will be disabled. Needs subscription to selective 3DS option. For more information, refer to the module documentation.')
+                '#description' => uc_payzen_t('Amount below which customer could be exempt from strong authentication. Needs subscription to &laquo;Selective 3DS1&raquo; or &laquo;Frictionless 3DS2&raquo; options. For more information, refer to the module documentation.')
             );
 
             // Return to shop settings.
@@ -630,7 +629,7 @@ function uc_payment_method_uc_payzen($op, &$order, $form = null, &$form_state = 
                 '#type' => 'textarea',
                 '#theme' => 'uc_payzen_backend_multi_options',
                 '#title' => uc_payzen_t('Payment options'),
-                '#description' => uc_payzen_t('Click on &laquo;Add&raquo; button to configure one or more payment options. <br /><b>Label: </b>The option label to display on the frontend. <br /><b>Min. amount: </b>Minimum amount to enable the payment option. <br /><b>Max. amount: </b>Maximum amount to enable the payment option. <br /><b>Contract: </b>ID of the contract to use with the option. <br /><b>Count: </b>Total number of payments. <br /><b>Period: </b>Delay (in days) between payments. <br /><b>1st payment: </b>Amount of first payment, in percentage of total amount. If empty, all payments will have the same amount.'),
+                '#description' => uc_payzen_t('Click on &laquo;Add&raquo; button to configure one or more payment options. <br /><b>Label: </b>The option label to display on the frontend. <br /><b>Min. amount: </b>Minimum amount to enable the payment option. <br /><b>Max. amount: </b>Maximum amount to enable the payment option. <br /><b>Contract: </b>ID of the contract to use with the option (leave blank preferably). <br /><b>Count: </b>Total number of installments. <br /><b>Period: </b>Delay (in days) between installments. <br /><b>1st installment: </b>Amount of first installment, in percentage of total amount. If empty, all installments will have the same amount.'),
                 '#default_value' => ''
             );
 
@@ -779,7 +778,7 @@ function uc_payzen_form($form, &$form_state, $order)
     $version = VERSION . '_' . substr($info['version'], strpos($info['version'], '-') + 1);
 
     // Load plugin params.
-    $request->set('contrib', PayzenTools::get('cms_identifier') . '_' . PayzenTools::get('plugin_version') . '/' . $version . '/' . PHP_VERSION);
+    $request->set('contrib', PayzenTools::get('cms_identifier') . '_' . PayzenTools::get('plugin_version') . '/' . $version . '/' . PayzenApi::shortPhpVersion());
 
     // Load default language.
     $lang = strtolower($language->language);
@@ -826,7 +825,7 @@ function uc_payzen_form($form, &$form_state, $order)
     // Return URL.
     $request->set('url_return', url('cart/payzen_process', array('absolute' => true)));
 
-    // Disable 3DS?
+    // Manage 3DS?
     $threeds_min_amount = variable_get('uc_payzen_3ds_min_amount');
     $threeds_mpi = null;
     if ($threeds_min_amount && $order->order_total < $threeds_min_amount) {
@@ -1049,7 +1048,7 @@ function uc_payzen_payment_notify()
             uc_order_comment_save(
                 $order_id,
                 0,
-                uc_payzen_t('Payment of @amount submitted through @gateway. ' . $response->getMessage(), array(
+                uc_payzen_t('Payment of @amount submitted through @gateway.' . ' '. $response->getMessage(), array(
                     '@amount' => uc_currency_format($amount),
                     '@gateway' => PayzenTools::get('gateway_name')
                 )),
