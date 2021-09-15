@@ -1,4 +1,4 @@
-Copyright © 2012-2019 Lyra Network.
+Copyright © 2012-2021 Lyra Network.
 
 PayZen for Ubercart is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License

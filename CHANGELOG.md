@@ -1,3 +1,7 @@
+2.1.1, 2021-09-15:
+- Bug fix: Fix Order->data value initialization.
+- Update translations.
+
 2.1.0, 2019-09-26:
 - Rename plugin files and folders.
 - Compatibility with the latest version of Ubercart (7.x-3.12).

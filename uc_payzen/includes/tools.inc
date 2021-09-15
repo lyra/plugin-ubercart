@@ -26,7 +26,7 @@ class PayzenTools
 
     private static $cms_identifier = 'Ubercart_7.x-3.x';
     private static $support_email = 'support@payzen.eu';
-    private static $plugin_version = '2.1.0';
+    private static $plugin_version = '2.1.1';
     private static $gateway_version = 'V2';
 
     /**
