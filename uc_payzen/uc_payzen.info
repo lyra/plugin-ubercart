@@ -5,6 +5,6 @@ package = Ubercart - payment
 
 configure = admin/store/settings/payment
 
-version = "7.x-2.1.0"
+version = "7.x-2.1.1"
 core = "7.x"
 project = "uc_payzen"

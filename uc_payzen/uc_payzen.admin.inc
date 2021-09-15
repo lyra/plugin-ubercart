@@ -30,7 +30,7 @@ function theme_uc_payzen_backend_multi_options($variables)
                             <th>' . uc_payzen_t('Contract') . '</th>
                             <th>' . uc_payzen_t('Count') . '</th>
                             <th>' . uc_payzen_t('Period') . '</th>
-                            <th>' . uc_payzen_t('1st payment') . '</th>
+                            <th>' . uc_payzen_t('1st installment') . '</th>
                             <th></th>
                         </tr>
                     </thead>

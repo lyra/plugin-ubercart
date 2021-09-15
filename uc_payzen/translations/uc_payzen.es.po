@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Ubercart PayZen 2.1.0\n"
+"Project-Id-Version: Ubercart PayZen 2.1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-13 16:00+0100\n"
-"PO-Revision-Date: 2019-07-23 09:38+0100\n"
+"PO-Revision-Date: 2021-09-15 15:46+0100\n"
 "Last-Translator: \n"
 "Language-Team: Lyra Network <support@payzen.eu>\n"
 "Language: es_ES\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Poedit-KeywordsList: uc_payzen_t\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 3.0\n"
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../uc_payzen.module:53
@@ -30,7 +30,7 @@ msgstr "Pago con tarjeta de crédito"
 #: ../uc_payzen.module:74
 msgctxt "uc_payzen"
 msgid "@gateway - Standard payment"
-msgstr "@gateway  - Pago standard"
+msgstr "@gateway - Pago standard"
 
 #: ../uc_payzen.module:77
 msgctxt "uc_payzen"
@@ -45,7 +45,7 @@ msgstr "Pago con tarjeta de crédito en cuotas"
 #: ../uc_payzen.module:96
 msgctxt "uc_payzen"
 msgid "@gateway - Payment in installments"
-msgstr "@gateway  - Pago en cuotas"
+msgstr "@gateway - Pago en cuotas"
 
 #: ../uc_payzen.module:98 ../uc_payzen.module:525
 msgctxt "uc_payzen"
@@ -150,9 +150,7 @@ msgstr "Clave en modo production"
 #: ../uc_payzen.module:297
 msgctxt "uc_payzen"
 msgid "Key provided by @gateway (available in @backoffice Back Office after enabling production mode)."
-msgstr ""
-"Clave proporcionada por @gateway (disponible en el Back Office @backoffice después de habilitar el "
-"modo production)."
+msgstr "Clave proporcionada por @gateway (disponible en el Back Office @backoffice después de habilitar el modo production)."
 
 #: ../uc_payzen.module:302
 msgctxt "uc_payzen"
@@ -182,23 +180,23 @@ msgstr "Algoritmo de firma"
 #: ../uc_payzen.module:313
 msgctxt "uc_payzen"
 msgid ""
-"Algorithm used to compute the payment form signature. Selected algorithm must be the same as one "
-"configured in the @backoffice Back Office.<br /><b>The SHA-256 algorithm should not be activated if "
-"it is not yet available in the @backoffice Back Office, the feature will be available soon.</b>"
+"Algorithm used to compute the payment form signature. Selected algorithm must be the same as one configured in the @backoffice "
+"Back Office.<br /><b>The SHA-256 algorithm should not be activated if it is not yet available in the @backoffice Back Office, the "
+"feature will be available soon.</b>"
 msgstr ""
-"Algoritmo usado para calcular la firma del formulario de pago. El algoritmo seleccionado debe ser el "
-"mismo que el configurado en el Back Office @backoffice.<br /><b>El algoritmo HMAC-SHA-256 no se debe "
-"activar si aún no está disponible el Back Office @backoffice, la función estará disponible pronto.</b>"
+"Algoritmo usado para calcular la firma del formulario de pago. El algoritmo seleccionado debe ser el mismo que el configurado en "
+"el Back Office @backoffice.<br /><b>El algoritmo HMAC-SHA-256 no se debe activar si aún no está disponible el Back Office "
+"@backoffice, la función estará disponible pronto.</b>"
 
 #: ../uc_payzen.module:322
 msgctxt "uc_payzen"
 msgid "Instant Payment Notification URL"
-msgstr "URL de notificación de pago instantáneo."
+msgstr "URL de notificación de pago instantáneo"
 
 #: ../uc_payzen.module:325
 msgctxt "uc_payzen"
 msgid "URL to copy into your @backoffice Back Office > Settings > Notification rules."
-msgstr "URL a copiar en el Back Office  @backoffice > Configuración > Reglas de notificación"
+msgstr "URL a copiar en el Back Office @backoffice > Configuración > Reglas de notificación."
 
 #: ../uc_payzen.module:329
 msgctxt "uc_payzen"
@@ -232,12 +230,8 @@ msgstr "Idiomas disponibles"
 
 #: ../uc_payzen.module:354
 msgctxt "uc_payzen"
-msgid ""
-"Languages available on the payment page. If you do not select any, all the supported languages will "
-"be available."
-msgstr ""
-"Idiomas disponibles en la página de pago. Si no selecciona ninguno, todos los idiomas compatibles "
-"estarán disponibles."
+msgid "Languages available on the payment page. If you do not select any, all the supported languages will be available."
+msgstr "Idiomas disponibles en la página de pago. Si no selecciona ninguno, todos los idiomas compatibles estarán disponibles."
 
 #: ../uc_payzen.module:360
 msgctxt "uc_payzen"
@@ -256,9 +250,7 @@ msgstr "Modo de validación"
 
 #: ../uc_payzen.module:367
 msgctxt "uc_payzen"
-msgid ""
-"If manual is selected, you will have to confirm payments manually in your your @backoffice Back "
-"Office."
+msgid "If manual is selected, you will have to confirm payments manually in your @backoffice Back Office."
 msgstr "Si se selecciona manual, deberá confirmar los pagos manualmente en su Back Office @backoffice."
 
 #: ../uc_payzen.module:369
@@ -284,28 +276,26 @@ msgstr "Tipos de tarjeta"
 #: ../uc_payzen.module:379
 msgctxt "uc_payzen"
 msgid "The card type(s) that can be used for the payment. Select none to use gateway configuration."
-msgstr ""
-"El tipo(s) de tarjeta que se puede usar para el pago. No haga ninguna selección para usar la "
-"configuración del portal."
+msgstr "El tipo(s) de tarjeta que se puede usar para el pago. No haga ninguna selección para usar la configuración del portal."
 
 #: ../uc_payzen.module:389
 msgctxt "uc_payzen"
-msgid "SELECTIVE 3DS"
-msgstr "3DS SELECTIVO"
+msgid "CUSTOM 3DS"
+msgstr "3DS PERSONALIZADO"
 
 #: ../uc_payzen.module:392
 msgctxt "uc_payzen"
-msgid "Disable 3DS"
-msgstr "Deshabilitar 3DS"
+msgid "Manage 3DS"
+msgstr "Gestionar el 3DS"
 
 #: ../uc_payzen.module:395
 msgctxt "uc_payzen"
 msgid ""
-"Amount below which 3DS will be disabled. Needs subscription to selective 3DS option. For more "
-"information, refer to the module documentation."
+"Amount below which customer could be exempt from strong authentication. Needs subscription to &laquo;Selective 3DS1&raquo; or "
+"&laquo;Frictionless 3DS2&raquo; options. For more information, refer to the module documentation."
 msgstr ""
-"Monto por debajo del cual se deshabilitará 3DS. Requiere suscripción a la opción 3DS selectivo. Para "
-"más información, consulte la documentación del módulo."
+"Monto por debajo del cual el comprador podría estar exento de de la autenticación fuerte. Requiere suscripción a la opción &laquo;"
+"Selective 3DS1&raquo; o a la opción &laquo;Frictionless 3DS2&raquo; . Para más información, consulte la documentación del módulo."
 
 #: ../uc_payzen.module:403
 msgctxt "uc_payzen"
@@ -339,12 +329,9 @@ msgstr "Tiempo de espera de la redirección en pago exitoso"
 
 #: ../uc_payzen.module:419
 msgctxt "uc_payzen"
-msgid ""
-"Time in seconds (0-300) before the buyer is automatically redirected to your website after a "
-"successful payment."
+msgid "Time in seconds (0-300) before the buyer is automatically redirected to your website after a successful payment."
 msgstr ""
-"Tiempo en segundos (0-300) antes de que el comprador sea redirigido automáticamente a su sitio web "
-"después de un pago exitoso."
+"Tiempo en segundos (0-300) antes de que el comprador sea redirigido automáticamente a su sitio web después de un pago exitoso."
 
 #: ../uc_payzen.module:424
 msgctxt "uc_payzen"
@@ -368,12 +355,9 @@ msgstr "Tiempo de espera de la redirección en pago rechazado"
 
 #: ../uc_payzen.module:431
 msgctxt "uc_payzen"
-msgid ""
-"Time in seconds (0-300) before the buyer is automatically redirected to your website after a declined "
-"payment."
+msgid "Time in seconds (0-300) before the buyer is automatically redirected to your website after a declined payment."
 msgstr ""
-"Tiempo en segundos (0-300) antes de que el comprador sea redirigido automáticamente a su sitio web "
-"después de un pago rechazado"
+"Tiempo en segundos (0-300) antes de que el comprador sea redirigido automáticamente a su sitio web después de un pago rechazado."
 
 #: ../uc_payzen.module:436
 msgctxt "uc_payzen"
@@ -448,19 +432,18 @@ msgstr "Monto máximo para activar este método de pago."
 #: ../uc_payzen.module:508
 msgctxt "uc_payzen"
 msgid ""
-"ATTENTION: The payment in installments feature activation is subject to the prior agreement of "
-"Société Générale.<br />If you enable this feature while you have not the associated option, an error "
-"10000 – INSTALLMENTS_NOT_ALLOWED or 07 - PAYMENT_CONFIG will occur and the buyer will not be able to "
-"pay."
+"ATTENTION: The payment in installments feature activation is subject to the prior agreement of Société Générale.<br />If you "
+"enable this feature while you have not the associated option, an error 10000 – INSTALLMENTS_NOT_ALLOWED or 07 - PAYMENT_CONFIG "
+"will occur and the buyer will not be able to pay."
 msgstr ""
-"ATENCIÓN: La activación de la función de pago en cuotas está sujeta al acuerdo previo de Societé "
-"Générale.<br />Si habilita esta función cuando no tiene la opción asociada, ocurrirá un error 10000 – "
-"INSTALLMENTS_NOT_ALLOWED o 07 - PAYMENT_CONFIG y el comprador no podrá pagar."
+"ATENCIÓN: La activación de la función de pago en cuotas está sujeta al acuerdo previo de Societé Générale.<br />Si habilita esta "
+"función cuando no tiene la opción asociada, ocurrirá un error 10000 – INSTALLMENTS_NOT_ALLOWED o 07 - PAYMENT_CONFIG y el "
+"comprador no podrá pagar."
 
 #: ../uc_payzen.module:514
 msgctxt "uc_payzen"
 msgid "Enables / disables multiple payment."
-msgstr "Habilitar/deshabilitar el pago múltiple"
+msgstr "Habilitar/deshabilitar el pago múltiple."
 
 #: ../uc_payzen.module:553
 msgctxt "uc_payzen"
@@ -475,25 +458,23 @@ msgstr "Opciones de pago"
 #: ../uc_payzen.module:559
 msgctxt "uc_payzen"
 msgid ""
-"Click on &laquo;Add&raquo; button to configure one or more payment options. <br /><b>Label: </b>The "
-"option label to display on the frontend. <br /><b>Min. amount: </b>Minimum amount to enable the "
-"payment option. <br /><b>Max. amount: </b>Maximum amount to enable the payment option. <br /"
-"><b>Contract: </b>ID of the contract to use with the option. <br /><b>Count: </b>Total number of "
-"payments. <br /><b>Period: </b>Delay (in days) between payments. <br /><b>1st payment: </b>Amount of "
-"first payment, in percentage of total amount. If empty, all payments will have the same amount."
+"Click on &laquo;Add&raquo; button to configure one or more payment options. <br /><b>Label: </b>The option label to display on the "
+"frontend. <br /><b>Min. amount: </b>Minimum amount to enable the payment option. <br /><b>Max. amount: </b>Maximum amount to "
+"enable the payment option. <br /><b>Contract: </b>ID of the contract to use with the option (leave blank preferably). <br /"
+"><b>Count: </b>Total number of installments. <br /><b>Period: </b>Delay (in days) between installments. <br /><b>1st installment: "
+"</b>Amount of first installment, in percentage of total amount. If empty, all installments will have the same amount."
 msgstr ""
-"Haga clic en el botón &laquo; Agregar &raquo; para configurar una o más opciones de pago. <br /"
-"><b>Etiqueta: </b>La etiqueta de opción a mostrar en el frontend. <br /><b>Monto mínimo: </b>Monto "
-"mínimo para habilitar la opción de pago. <br /><b>Monto máximo: </b>Monto máximo para habilitar la "
-"opción de pago. <br /><b>Afiliación: </b>ID de la afiliación a usar con la opción. <br /><b>Conteo: </"
-"b>Número total de pagos. <br /><b>Periodo: </b>Plazo (en días) entre pagos. <br /><b>Primer pago: </"
-"b>Monto del primer pago, en porcentaje del monto total. Si está vacío, todos los pagos tendrán el "
-"mismo monto."
+"Haga clic en el botón &laquo;Agregar&raquo; para configurar una o más opciones de pago.<br /><b>Etiqueta: </b>La etiqueta de "
+"opción a mostrar en el frontend.<br /><b>Monto mínimo: </b>Monto mínimo para habilitar la opción de pago.<br /><b>Monto máximo: </"
+"b>Monto máximo para habilitar la opción de pago.<br /><b>Afiliación: </b>ID de la afiliación a usar con la opción (dejar en blanco "
+"preferiblemente).<br /><b>Conteo: </b>Número total de vencimientos.<br /><b>Periodo: </b>Plazo (en días) entre vencimientos.<br /"
+"><b>Primer vencimiento: </b>Monto del primer vencimiento, en porcentaje del monto total. Si está vacío, todos los vencimientos "
+"tendrán el mismo monto."
 
 #: ../uc_payzen.module:643
 msgctxt "uc_payzen"
 msgid "One or more values are invalid for field « @field ». Only valid entries are saved."
-msgstr "Uno o más valores no son válidos para el campo « @field ». Solo se guardan las entradas válidas"
+msgstr "Uno o más valores no son válidos para el campo « @field ». Solo se guardan las entradas válidas."
 
 #: ../uc_payzen.module:788
 msgctxt "uc_payzen"
@@ -508,13 +489,11 @@ msgstr "Ocurrió un error en el proceso de pago."
 #: ../uc_payzen.module:857
 msgctxt "uc_payzen"
 msgid ""
-"<b>GOING INTO PRODUCTION:</b> You want to know how to put your shop into production mode, please read "
-"chapters «Proceeding to test phase» and «Shifting the shop to production mode» in the documentation "
-"of the module."
+"<b>GOING INTO PRODUCTION:</b> You want to know how to put your shop into production mode, please read chapters «Proceeding to test "
+"phase» and «Shifting the shop to production mode» in the documentation of the module."
 msgstr ""
-"<b>IR A PRODUCTION:</b> Si desea saber cómo poner su tienda en modo production, lea los capítulos "
-"«Proceder a la fase de prueba» y «Paso de una tienda al modo producción» en la documentación del "
-"módulo."
+"<b>IR A PRODUCTION:</b> Si desea saber cómo poner su tienda en modo production, lea los capítulos «Proceder a la fase de prueba» y "
+"«Paso de una tienda al modo producción» en la documentación del módulo."
 
 #: ../uc_payzen.module:877
 msgctxt "uc_payzen"
@@ -538,7 +517,7 @@ msgstr "SÍ"
 
 #: ../uc_payzen.module:954
 msgctxt "uc_payzen"
-msgid "Payment of @amount submitted through @gateway. "
+msgid "Payment of @amount submitted through @gateway."
 msgstr "Pago de @amount efectuado via @gateway."
 
 #: ../uc_payzen.module:965
@@ -548,23 +527,17 @@ msgstr "La tienda está en modo de mantenimiento. La notificación automática n
 
 #: ../uc_payzen.module:967
 msgctxt "uc_payzen"
-msgid ""
-"The automatic validation has not worked. Have you correctly set up the notification URL in the "
-"@backoffice Back Office ?"
-msgstr ""
-"La validación automática no ha funcionado. ¿Configuró correctamente la URL de notificación en su Back "
-"Office @backoffice?"
+msgid "The automatic validation has not worked. Have you correctly set up the notification URL in the @backoffice Back Office ?"
+msgstr "La validación automática no ha funcionado. ¿Configuró correctamente la URL de notificación en su Back Office @backoffice?"
 
 #: ../uc_payzen.module:968
 msgctxt "uc_payzen"
 msgid ""
-"For understanding the problem, please read the documentation of the module: <br />&nbsp;&nbsp;&nbsp;- "
-"Chapter &laquo;To read carefully before going further&raquo;<br />&nbsp;&nbsp;&nbsp;- Chapter &laquo;"
-"Notification URL settings&raquo;"
+"For understanding the problem, please read the documentation of the module: <br />&nbsp;&nbsp;&nbsp;- Chapter &laquo;To read "
+"carefully before going further&raquo;<br />&nbsp;&nbsp;&nbsp;- Chapter &laquo;Notification URL settings&raquo;"
 msgstr ""
-"Para entender el problema, lea la documentación del módulo: <br />&nbsp;&nbsp;&nbsp;- Capítulo &laquo;"
-"Leer detenidamente antes de continuar &raquo;<br />&nbsp;&nbsp;&nbsp;- Capítulo &laquo;Configuración "
-"de la URL de notificación&raquo;"
+"Para entender el problema, lea la documentación del módulo: <br />&nbsp;&nbsp;&nbsp;- Capítulo &laquo;Leer detenidamente antes de "
+"continuar &raquo;<br />&nbsp;&nbsp;&nbsp;- Capítulo &laquo;Configuración de la URL de notificación&raquo;"
 
 #: ../uc_payzen.module:994
 msgctxt "uc_payzen"
@@ -613,8 +586,8 @@ msgstr "Periodo"
 
 #: ../uc_payzen.admin.inc:33
 msgctxt "uc_payzen"
-msgid "1st payment"
-msgstr "Primer pago"
+msgid "1st installment"
+msgstr "Primer vencimiento"
 
 #: ../uc_payzen.module:342
 msgctxt "uc_payzen"
